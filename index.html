@@ -7,25 +7,153 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="hero-container">
-        <img class="hero-img" src="assets/images/bg-img.jpg" alt="bg-img" >
-        <div class="tint"></div>
-        <div class="navbar">
-            <img class="logo" src="assets/images/netflixLogo.png" alt="logo">
-            <div class="nav-actions">
-                <a class="btn ln-btn" href="">English</a>
-                <a class="btn signin-btn" href="">Sign In</a>
+    <!-- hero section -->
+    <section>
+        <div class="hero-container">
+            <img class="hero-img" src="assets/images/bg-img.jpg" alt="bg-img" >
+            <div class="tint"></div>
+            <div class="navbar">
+                <img class="logo" src="assets/images/netflixLogo.png" alt="logo">
+                <div class="nav-actions">
+                    <a class="btn ln-btn" href="">English</a>
+                    <a class="btn signin-btn" href="">Sign In</a>
+                </div>
+            </div>
+            <div class="hero-content">
+                <h1 class="hero-title">Unlimited movies, TV shows and more</h1>
+                <h2 class="hero-subheading">Watch anywhere. Cancel anytime.</h2>
+                <p class="hero-desc">Ready to watch? Enter your email to create or restart your membership.</p>
+                <div class="hero-action">
+                    <input type="email" placeholder="Email address" class="hero-emailFeild">
+                    <button class="hero-button">Get started</button>
+                </div>
             </div>
         </div>
-        <div class="hero-content">
-            <h1 class="hero-title">Unlimited movies, TV shows and more</h1>
-            <h2 class="hero-subheading">Watch anywhere. Cancel anytime.</h2>
+        <div class="border"></div>
+    </section>
+
+    <!-- Tv-section -->
+    <section>
+        <div class="tv-section">
+            <div class="left-section">
+                <h2 class="section-heading">Enjoy on your TV</h2>
+                <h4 class="section-subheading">Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</h4>
+            </div>
+            <div class="right-section">
+                <div class="tv-container">
+                    <video class="tv-video" src="assets/videos/video-tv-in-0819.m4v" autoplay muted loop ></video>                    
+                    <img class="tv-img" src="assets/images/tv.png" alt="tv"/>
+                </div>
+            </div>
+        </div>
+        <div class="border"></div>
+    </section>
+
+    <!-- Mobile-section -->
+    <section>
+        <div class="mobile-section">
+            <div class="left-section">
+                <div class="mobile-container">
+                    <div class="mobile-box">
+                        <div class="inner-box">
+                            <img class="str-img" src="assets/images/stranger-things.png" alt="book-img"/>
+                            <div class="middle-box">
+                                <h1 class="box-heading">Stranger Things</h1>
+                                <p class="box-subheading">Downloading....</p>
+                            </div>
+                        </div>
+                        <img class="gif" src="assets/images/download-icon.gif" alt="Loading-gif">
+                    </div>
+                    <img class="mobile-img" src="assets/images/mobile-0819.jpg" alt="tv"/>
+                </div>       
+             </div>
+            <div class="right-section">
+                <h2 class="section-heading">Download your shows to watch offline</h2>
+                <h4 class="section-subheading">Save your favourites easily and always have something to watch.</h4>
+            </div>
+        </div>
+        <div class="border"></div>
+    </section>
+
+    <!-- Tv section only but with different content -->
+    <section>
+        <div class="tv-section">
+            <div class="left-section">
+                <h2 class="section-heading">Watch everywhere</h2>
+                <h4 class="section-subheading">Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</h4>
+            </div>
+            <div class="right-section">
+                <div class="tv-container">
+                    <video class="tv-video2" src="assets/videos/video-devices-in.m4v" autoplay muted loop ></video>                    
+                    <img class="tv-img" src="assets/images/device-pile-in.png" alt="tv"/>
+                </div>
+            </div>
+        </div>
+        <div class="border"></div>
+    </section>
+
+    <!-- Kids section -->
+    <section>
+        <div class="tv-section">
+            <div class="left-section">
+               <img class="children-png" src="assets/images/children.png" alt="children-png">
+            </div>
+            <div class="right-section">
+                    <h2 class="section-heading">Create profiles for kids</h2>
+                    <h4 class="section-subheading">Send children on adventures with their favourite characters in a space made just for them—free with your membership.</h4>
+                </div>
+            </div>
+        </div>
+        <div class="border"></div>
+    </section>
+
+    <!-- faq section -->
+    <faq-section>
+        <div class="faq">
+            <h1 class="faq-heading">Frequently Asked Questions</h1>
+            <div class="faq-question">
+                <p class="question">What is Netflix?</p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-plus" viewBox="0 0 16 16">
+                    <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/>
+                  </svg>
+            </div>
+            <div class="faq-question">
+                <p class="question">How much does Netflix cost?</p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-plus" viewBox="0 0 16 16">
+                    <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/>
+                  </svg>
+            </div>
+            <div class="faq-question">
+                <p class="question">Where can I watch?</p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-plus" viewBox="0 0 16 16">
+                    <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/>
+                  </svg>
+            </div>
+            <div class="faq-question">
+                <p class="question">How do I cancel?</p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-plus" viewBox="0 0 16 16">
+                    <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/>
+                  </svg>
+            </div>
+            <div class="faq-question">
+                <p class="question">What can I watch on Netflix?</p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-plus" viewBox="0 0 16 16">
+                    <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/>
+                  </svg>
+            </div>
+            <div class="faq-question">
+                <p class="question">Is Netflix good for kids?</p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-plus" viewBox="0 0 16 16">
+                    <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/>
+                  </svg>
+            </div>
             <p class="hero-desc">Ready to watch? Enter your email to create or restart your membership.</p>
             <div class="hero-action">
                 <input type="email" placeholder="Email address" class="hero-emailFeild">
                 <button class="hero-button">Get started</button>
             </div>
         </div>
-    </div>
+        <div class="border"></div>
+    </faq-section>
 </body>
 </html>
